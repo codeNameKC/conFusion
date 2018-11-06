@@ -2,6 +2,8 @@ body{
     z-index:0;
     margin: 0; 
     padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
  }
  
  .navbar-inverse {
@@ -37,6 +39,10 @@ body{
     padding:0px auto;
  }
  
+  header { 
+      width: 100vw;
+}
+
  .row-content {
     margin:0px auto;
     padding: 50px 0px 50px 0px;
@@ -73,6 +79,25 @@ address{
     display: none;
 }
 
+form {
+    padding: 0.25rem; 
+}
+
+label {
+    color: white;
+}
+
+label.date {
+    color: black;
+    margin-right: 1rem; 
+}
+
+button.reserve {
+    background-color: orange;
+    color: white; 
+    float: right; 
+}
+
  /* Media query for tablets and up incase needed*/
  
  @media (min-width: 768px) and (orientation: landscape) {
@@ -81,12 +106,10 @@ address{
         display: none; 
     }
 
-    #bigscreen-nav {
+    ul#bigscreen-nav {
         display: flex;
-        margin-right: 45%;
         flex-direction: row; 
         height: 100%; 
-       
     }
 
     .collapsed {
@@ -102,5 +125,21 @@ address{
     .copy-right {
         margin-left: 50%;
     }
+
+  div.horizontal {
+      display: flex; 
+      flex-direction: row; 
+
+  }
+
+  .checkbox {
+      color: white; 
+      margin-top: 10px; 
+  }
+
+  nav {
+      position: fixed;
+  }
+
 }
   

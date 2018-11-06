@@ -41,8 +41,9 @@
                                 </button>
                                 <a class="navbar-brand" href="index.html">Ristorante Con Fusion</a>
                             </div>
+                            <div class="horizontal">
                             <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav mb-2">
                            <div class="activetab h-100"> <li class="active d-block h-100"><a href="#"><span class="glyphicon glyphicon-home"
                                 aria-hidden="true"></span> Home</a></li></div>
                         <li><a href="aboutus.html"><span class="glyphicon glyphicon-info-sign"
@@ -65,6 +66,7 @@
                         <li><a href="#">Contact</a></li>
                 </ul>
             </div>
+
                 <ul id="bigscreen-nav" class="navbar-nav">
                         <li class="active mr-4 navitem" ><a href="#"><span class="glyphicon glyphicon-home"
                             aria-hidden="true"></span> Home</a></li>
@@ -87,6 +89,17 @@
                          </li>
                     <li class="mr-4 navitem"><a href="#">Contact</a></li>
             </ul>
+          
+            <form class="mr-2">
+                <input type="text" placeholder="Email">
+            </form>
+            <form class="mr-2">
+                <input type="text" placeholder="Password">
+            </form>
+            <input type="checkbox" class="checkbox"> <label >Remember me</label>
+            <button class=" btn btn-info ml-2">Sign in</button>
+       
+            </div>
                 </div>
             </nav>   
 
@@ -97,6 +110,7 @@
             <div class="row row-header">
                 <div class="col-xs-12 col-sm-8">
                     <h1>Ristorante con Fusion</h1>
+                    <button class="btn reserve">Reserve Table</button>
                     <p style="padding:40px;"></p>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
@@ -144,6 +158,42 @@
                 <p><a href="#">More &raquo;</a></p>
             </div>
         </div>
+
+
+        <div class="row row-content">
+                <div class="col-xs-12 col-sm-3">
+                    <p style="padding:20px;"></p>
+                   <span> <h3 align=center>Reserve a Table</h3> </span>
+                </div>
+                <div class="col-xs-12 col-sm-9">
+                <h5 class="form-group"> Number of Guests</h3>
+                 <input type="radio" name="guests" />
+                 <label >1</label>
+                 <input type="radio" name="guests"/>
+                 <label >2</label>
+                 <input type="radio" name="guests"/>
+                 <label >3</label>
+                 <input type="radio" name="guests"/>
+                 <label >4</label>
+                 <input type="radio" name="guests"/>
+                 <label >5</label>
+                 <input type="radio" name="guests"/>
+                 <label >6</label>
+                <br>
+                  <label class="date"> Date and Time</label>
+                  <input placeholder="dd-mmm-yyyy" class="textbox-n" type="text" onfocus="(type='date')" /> 
+                  <input  placeholder="00:00" class="textbox-n" type="text" onfocus="(type='time')"/> <br>
+                   <button class="btn btn-primary mb-2">Reserve</button>
+
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            <strong>Warning:</strong> Please <a href="#phone-number"> Call </a> us to reserve for more than six guests.
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+
+                </div>
+            </div>
     </div>
    </div>
 
@@ -165,7 +215,7 @@
 		              121, Clear Water Bay Road<br>
 		              Clear Water Bay, Kowloon<br>
 		              HONG KONG<br>
-		              <i class="fa fa-phone"></i>: +852 1234 5678<br>
+		              <i id="phone-number" class="fa fa-phone"></i>: +852 1234 5678<br>
                           <i class="fa fa-fax"></i>: +852 8765 4321<br>
                           <i class="fa fa-envelope"></i>: 
                                 <a href="mailto:confusion@food.net">confusion@food.net</a>
