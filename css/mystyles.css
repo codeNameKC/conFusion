@@ -122,6 +122,16 @@ img {
   margin-left: 2rem;
 }
 
+.badge-secondary {
+    color: white; 
+    width: 6rem;
+    height: 2.2rem;
+    font-size: 1.8rem;
+    margin-left: 0.5rem;
+    border-radius: 15px;
+  }
+
+
 .reserveb {
     margin-top: 2rem;
 }
@@ -166,6 +176,11 @@ img {
     .badge-danger {
         margin-top: 2rem;
       }
+
+      .badge-secondary {
+        margin-top: 2.8rem;
+      }
+
 
       .horizontal-center {
         display: flex; 
