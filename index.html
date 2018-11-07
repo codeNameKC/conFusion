@@ -33,7 +33,7 @@
 <body>
         <nav class="navbar navbar-inverse navbar-fixed-top " role="navigation">
                 <div class="container">
-                        <div class="navbar-header">
+                        <div class=" nav navbar-header">
                                 <button type="button" class="navbar-toggle collapsed togglebutton" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                                     <span class="sr-only">Toggle navigation</span>
                                     <span class="icon-bar"></span>
@@ -44,10 +44,9 @@
                             </div>
                             <div class="horizontal">
                             <div id="navbar" class="navbar-collapse collapse">
-                 
             </div>
 
-            <div id="navbar" class="navbar-collapse collapse">
+            <div id="navbar" class="nav navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"
                              aria-hidden="true"></span> Home</a></li>
@@ -71,13 +70,17 @@
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-            <form class="form-group login">
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Password">
-            </form>
-            <input type="checkbox" class="checkbox mr-2 login"> <label >Remember me</label>
-            <button class=" btn btn-info login">Sign in</button>
-        
+                
+            <form class="  horizontal-center">
+                <input type="text" placeholder="Email" class="login">
+                <input type="text" placeholder="Password" class="login">
+            
+            <div class="horizontal-center">
+            <input type="checkbox"> <label class="login" >Remember me</label>
+        </div>
+            <button class=" btn btn-info ">Sign in</button>
+        </form>
+    
             </div>
                 </div>
             </nav>   
@@ -98,17 +101,27 @@
             </div>
         </div>
     </header>
+
+
   <div class="container">
     <div class="row row-content">
         <div class="row">
-            <div class="col-xs-12 col-sm-9">
-                <h2 class="mr-5">Uthappizza</h2>
+                <div class="col-xs-12 col-sm-3">
+                <img src="https://d2droglu4qf8st.cloudfront.net/2016/03/259818/recipe-8612_ArticleImage-CategoryPage_ID-1461069.jpg?v=1461069">
+                </div>
+                <div class="col-xs-12 col-sm-9 uthapizza">
+                <div class="horizontal">
+                <h2 class="mr-5">Uthappizza</h2> 
+               <span class="badge badge-danger">Hot</span>
+            </div>
                 <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                 <p><a  href="#">More &raquo;</a></p>
             </div>
-            <div class="col-xs-12 col-sm-3">
+            
+                    <div class="horizontal">
                     <p style="padding:20px;"></p>
-                    <h3 align=center class="ml-5">Our Lipsmacking Culinary Creations</h3>
+                    <h3 align=center class="our-text">Our Lipsmacking Culinary Creations</h3>
+                   
                 </div>
         </div>
 
@@ -119,8 +132,14 @@
                 <h3 align=center>This Month's Promotions</h3>
             </div>
             <div class="col-xs-12 col-sm-9">
+                <div class="horizontal">
                 <h2>Weekend Grand Buffet</h2>
+                <span class="badge badge-danger">New</span>
+            </div>
+            <div class="horizontal">
                 <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <img src="https://static2.tripoto.com/media/filter/nl/img/256471/TripDocument/1461053991_2014619113333436269.jpg">
+            </div>
                 <p><a href="#">More &raquo;</a></p>
             </div>
         </div>
@@ -128,15 +147,22 @@
         <div class="row row-content">
             
             <div class="col-xs-12 col-sm-3">
+                    <div class="col-xs-12 col-sm-3">
+                <img  src="https://qph.fs.quoracdn.net/main-qimg-37a8a88dbd20070c4b660634d3639181">
+                </div>
+            </div>
                 <h2>Alberto Somayya</h2>
                 <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
-                <p><a href="#">More &raquo;</a></p>
+                <div class="horizontal">
+                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. 
+                <a href="#">More &raquo;</a></p>
+                <div class="col-xs-12 col-sm-9">
+                        <p style="padding:20px;"></p>
+                        <h3 align=center class="meet-text">Meet our Culinary Specialists</h3>
+                    </div>
+                    </div>
+                    </div>
             </div>
-            <div class="col-xs-12 col-sm-9">
-                    <p style="padding:20px;"></p>
-                    <h3 align=center>Meet our Culinary Specialists</h3>
-                </div>
         </div>
 
         <div class="row row-content">
@@ -145,26 +171,28 @@
                    <span> <h3 align=center>Reserve a Table</h3> </span>
                 </div>
                 <div class="col-xs-12 col-sm-9">
-                <h5 class="form-group"> Number of Guests</h3>
-                 <input type="radio" name="guests" />
-                 <label >1</label>
-                 <input type="radio" name="guests"/>
-                 <label >2</label>
-                 <input type="radio" name="guests"/>
-                 <label >3</label>
-                 <input type="radio" name="guests"/>
-                 <label >4</label>
-                 <input type="radio" name="guests"/>
-                 <label >5</label>
-                 <input type="radio" name="guests"/>
-                 <label >6</label>
+                    <div class="horizontal-center">
+                <h5 class="form-group mr-3"> <strong>Number of <br> Guests</strong></h5>
+                <input type="radio" name="guests" class="guests" />
+                <label>1</label>
+                <input type="radio" name="guests" class="guests"/>
+                <label>2</label>
+                <input type="radio" name="guests" class="guests"/>
+                <label>3</label>
+                <input type="radio" name="guests" class="guests"/>
+                <label>4</label>
+                <input type="radio" name="guests" class="guests"/>
+                <label>5</label>
+                <input type="radio" name="guests" class="guests"/>
+                <label>6</label>
                 <br>
+            </div>
                   <label class="date"> Date and Time</label>
                   <span class="glyphicon glyphicon-calendar"
                   aria-hidden="true"></span>  <input placeholder="dd-mmm-yyyy" class="textbox-n" type="text" onfocus="(type='date')"/> 
                   <span class="glyphicon glyphicon-time"
                   aria-hidden="true"></span> <input  placeholder="00:00" class="textbox-n" type="text" onfocus="(type='time')"/ > <br>
-                   <button class="btn btn-primary ">Reserve</button>
+                   <button class="btn btn-primary reserveb">Reserve</button>
 
                     <div class="alert alert-warning alert-dismissible fade show" role="alert"> 
                             <strong>Warning:</strong> Please <a href="#phone-number"> Call </a> us to reserve for more than six guests.
@@ -205,7 +233,7 @@
 		           </address>
                 </div>
                 <div class="col-xs-5 col-xs-offset-1 col-sm-2 col-sm-offset-1">
-                    <div class="nav row" >
+                    <div class="nav row social" >
                                 <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
                                 <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
                                 <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>

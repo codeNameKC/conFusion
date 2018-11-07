@@ -81,13 +81,20 @@ form {
     padding: 0.25rem; 
 }
 
-label {
+label.login {
     color: white;
 }
+
 
 label.date {
     color: black;
     margin-right: 1rem; 
+}
+
+input.guests {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: -0.3rem;
 }
 
 button.reserve {
@@ -100,35 +107,90 @@ h1 {
     margin-top: 45%;
 }
 
+img {
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+}
+
+.badge-danger {
+  color: white; 
+  background: linear-gradient(to left, #c05460, #e05555);
+  width: 9rem;
+  height: 4rem;
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+
+.reserveb {
+    margin-top: 2rem;
+}
 
  /* Media query for tablets and up incase needed*/
  
  @media (min-width: 768px) and (orientation: landscape) {
     
-.copy-right {
-       
+    .copy-right {
+        margin-right: 15%;
+        margin-left: -5rem;
+        margin-top: 5rem;
+        float: right; 
+        }
+
+    .horizontal {
+        display: flex; 
+        flex-direction: row; 
+
     }
 
-  div.horizontal {
-      display: flex; 
-      flex-direction: row; 
 
-  }
+    button.btn {
+        margin-left: 0.5rem;
+        margin-bottom: 0.5rem; 
+        margin-top: 0.5rem; 
+    }
 
-  .checkbox {
-      color: white; 
-      margin-top: 10px; 
-  }
+    h1 {
+        margin-top: 10%;
+    }
 
-  button.btn {
-      margin-left: 0.5rem;
-      margin-bottom: 0.5rem; 
-      margin-top: 0.5rem; 
-  }
 
-  h1 {
-    margin-top: 10%;
-}
+    label.login {
+        margin-top: 0.8rem;
+    }
 
+    .uthapizza {
+        margin-left: -13rem;
+    }
+
+    .badge-danger {
+        margin-top: 2rem;
+      }
+
+      .horizontal-center {
+        display: flex; 
+        flex-direction: row; 
+        align-content: center;
+        align-items: center;
+    }
+
+      input.login {
+          margin-right: 1rem;
+          height: 70%;
+      }
+
+     .meet-text {
+         margin-top: -5rem;
+     }
+
+     .our-text {
+        margin-left: -4rem;
+    }
+
+
+     .social {
+         margin-left: -5rem;
+         margin-top: 3rem; 
+     }
 }
   
