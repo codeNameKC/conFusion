@@ -89,6 +89,7 @@ label.login {
 label.date {
     color: black;
     margin-right: 1rem; 
+    margin-top: 1rem;
 }
 
 input.guests {
@@ -136,13 +137,23 @@ img {
     margin-top: 2rem;
 }
 
+.input-button {
+ border-radius: 0; 
+}
 
+.smoking {
+  margin-right: 2rem;
+}
+
+
+/* The modal styling */
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
+    margin-top: 25%;
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
@@ -231,6 +242,14 @@ img {
 
     h1 {
         margin-top: 10%;
+    }
+
+    .modal { 
+        margin-top: 0;
+    }
+
+    .modal-content {
+        height: 80%;
     }
 
 
